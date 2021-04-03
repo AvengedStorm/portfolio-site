@@ -1,31 +1,36 @@
+let aboutmedisplay = document.getElementById('About-Me');
+let projectdisplay = document.getElementById('Projects');
+let contactdisplay = document.getElementById('Contact');
+
+
 let homeDisplay = () => {
-    document.getElementById('About-Me').style.display = 'initial';
-    document.getElementById('Projects').style.display = 'initial';
-    document.getElementById('Contact').style.display = 'initial';
+    aboutmedisplay.style.display = 'initial';
+    projectdisplay.style.display = 'initial';
+    contactdisplay.style.display = 'initial';
 }
 
 Element.addEventListener.getElementById('home')("click", homeDisplay);
 
 let aboutMeDisplay = () => {
-    document.getElementById('About-Me').style.display = 'initial';
-    document.getElementById('Projects').style.display = 'none';
-    document.getElementById('Contact').style.display = 'none';
+    aboutmedisplay.style.display = 'initial';
+    projectdisplay.style.display = 'none';
+    contactdisplay.style.display = 'none';
 }
 
-Element.addEventListener.getElementById('About-Me')("click", aboutMeDisplay);
+Element.addEventListener.aboutmedisplay("click", aboutMeDisplay);
 
 let projectsDisplay = () => {
-    document.getElementById('About-Me').style.display = 'none';
-    document.getElementById('Projects').style.display = 'initial';
-    document.getElementById('Contact').style.display = 'none';
+    aboutmedisplay.style.display = 'none';
+    projectdisplay.style.display = 'initial';
+    contactdisplay.style.display = 'none';
 }
 
-Element.addEventListener.getElementById('Projects')("click", projectsDisplay);
+Element.addEventListener.projectdisplay("click", projectsDisplay);
 
 let contactDisplay = () => {
-    document.getElementById('About-Me').style.display = 'none';
-    document.getElementById('Projects').style.display = 'none';
-    document.getElementById('Contact').style.display = 'initial';
+    aboutmedisplay.style.display = 'none';
+    projectdisplay.style.display = 'none';
+    contactdisplay.style.display = 'initial';
 }
 
-Element.addEventListener.getElementById('Contact')("click", contactDisplay);
+Element.addEventListener.contactdisplay("click", contactDisplay);
