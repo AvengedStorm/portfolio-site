@@ -94,33 +94,28 @@ a {
         margin-left: 27.5%;
     }
 
-    .column1 {
-        width: 100%;
+    .column1 { 
+        width: 100% !important;
         margin: auto;
-        justify-content: space-around;
     }
-
+    
     .column2 {
-        width: 100%;
+        width: 100% !important;
         margin: auto;
-        justify-content: space-around;
     }
 
     .column3 {
-        width: 100%;
+        width: 100% !important;
         margin: auto;
-        justify-content: space-around;
     }
-
+    
     .column4 {
-        width: 100%;
+        width: 100% !important;
         margin: auto;
-        justify-content: space-around;
     }
 }
 
 @media screen and (min-width: 760px) {
-}
     .column1 {
         float: left;
         width: 50%;
@@ -144,9 +139,10 @@ a {
         width: 25%;
         margin: auto;
     }
-
+    
     .selfie {
         width: 187px;
         height: 383px;
         margin-left: 25%;
-    }
+    }   
+}
