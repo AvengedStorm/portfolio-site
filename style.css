@@ -97,21 +97,25 @@ a {
     .column1 {
         width: 100%;
         margin: auto;
+        justify-content: space-around;
     }
 
     .column2 {
         width: 100%;
         margin: auto;
+        justify-content: space-around;
     }
 
     .column3 {
         width: 100%;
         margin: auto;
+        justify-content: space-around;
     }
 
     .column4 {
         width: 100%;
         margin: auto;
+        justify-content: space-around;
     }
 }
 
