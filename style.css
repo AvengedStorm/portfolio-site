@@ -93,6 +93,26 @@ a {
         width: 40%;
         margin-left: 27.5%;
     }
+
+    .column1 {
+        width: 100%;
+        margin: auto;
+    }
+
+    .column2 {
+        width: 100%;
+        margin: auto;
+    }
+
+    .column3 {
+        width: 100%;
+        margin: auto;
+    }
+
+    .column4 {
+        width: 100%;
+        margin: auto;
+    }
 }
 
 @media screen and (min-width: 760px) {
