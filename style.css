@@ -22,6 +22,10 @@ a {
     text-decoration: none;
 }
 
+.btn {
+    width: 120px;
+}
+
 .sites a {
     display: block;
     width: 30%
@@ -110,6 +114,10 @@ nav {
     .column4 {
         width: 100% !important;
         margin: auto;
+    }
+
+    .contact1 {
+        text-align: center;
     }
 }
 
