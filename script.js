@@ -13,6 +13,7 @@ aboutmebtn.addEventListener("click", () => {
     contact.style.display = "none";
     selfie.style.display = "none";
     about.style.display = "";
+    about.style.float = "left";
     }
 )
 
@@ -26,6 +27,8 @@ picbtn.addEventListener("click", () => {
 
 projectbtn.addEventListener("click", () => {
     Projects.style.display = "";
+    Projects.style.marginLeft = "5%";
+    Projects.style.float = "";
     contact.style.display = "none";
     selfie.style.display = "none";
     about.style.display = "none";
@@ -35,12 +38,9 @@ projectbtn.addEventListener("click", () => {
 contactbtn.addEventListener("click", () => {
     Projects.style.display = "none";
     contact.style.display = "";
+    contact.style.float = "left";
+    contact.style.margin = "2.5% 5%";
     selfie.style.display = "none";
     about.style.display = "none";
     }
 )
-
-console.log(Projects);
-console.log(contact);
-console.log(selfie);
-console.log(about);
